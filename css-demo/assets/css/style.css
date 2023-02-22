@@ -1,11 +1,20 @@
 /* 
-Color Scheme:
-Primary: 
-Secondary: 
-etc etc.
+Color Scheme: Dark Moss
+Primary: #697E50
+Secondary: #C3CA92
+Tertiary: #20331B
+Accents: 
+   #A4B17B
+   #859864
+   #4E653D
+   #354C2B
 */
 
 body{
-    background-color:#800000;
+    background-color:#697E50;
     font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color:#C3CA92;
 }
