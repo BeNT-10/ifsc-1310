@@ -20,6 +20,19 @@ html {
     box-sizing: inherit;
   }
 
+
+/*  --------------- Utility Classes -----------------  */
+.container{
+    width:80vw;
+    max-width:960px;
+    margin:40px auto;
+}
+
+/*  --------------- Responsive Images -----------------  */
+img{
+    max-width:100%;
+}
+
 /*  --------------- Global Styles -----------------  */
 body{
     background-color:#697E50;
@@ -74,7 +87,69 @@ header.primary nav ul li a{
     text-decoration:none;
     text-shadow: 1px 1px 2px #000000;
     background:#4E653D;
+    /*
+    opacity:.5;
+    affects everything, use opaque color instead
+    */
+    background:rgba(0,0,0,.6);
     padding:8px 16px;
     border-radius:20px;
-    border: 2px solid #20331B;
+    /*border: 2px solid #20331B;*/
+    border: 2px solid rgba(0,0,0,.6);
+    transition: 0.5s;
+}
+
+header.primary nav ul li a:hover,
+header.primary nav ul li a:active{
+    background: rgba(0,0,0,.3);
+}
+
+#intro {
+
+}
+
+#intro h2{
+    color: #C3CA92;
+    border-bottom:1px dotted #C3CA92;
+}
+
+#content{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    gap:20px;
+}
+
+#content article.post{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  transition: 0.5s;
+} 
+
+#content article.post:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+article.post figure{
+    margin:0;
+}
+
+
+
+/*  --------------- Media Queries -----------------  */
+@media screen and (max-width:600px){
+
+    header.primary nav ul{
+        flex-direction:column;
+        margin:auto;
+    }
+
+    header.primary nav a{
+        display:block;
+    }
+    header.primary nav li{
+        margin-bottom: 10px;
+    }
 }
