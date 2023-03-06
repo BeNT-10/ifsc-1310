@@ -105,12 +105,13 @@ header.primary nav ul li a:active{
 }
 
 #intro {
-
+    border-bottom:1px solid #C3CA92;
+    padding-bottom:20px;
 }
 
 #intro h2{
     color: #C3CA92;
-    border-bottom:1px dotted #C3CA92;
+    border-bottom:1px solid #C3CA92;
 }
 
 #content{
@@ -136,7 +137,57 @@ article.post figure{
     margin:0;
 }
 
+time.post-date,
+figcaption,
+.post-meta{
+    text-transform:uppercase;
+    color:#C3CA92;
+}
 
+.post figure img{
+    border:2px solid #20331B;
+    padding:2px;
+    background:#20331B;
+    border-radius:5px;
+}
+
+article.post a{
+    color:#20331B;
+}
+
+article.post a:hover{
+    text-decoration:none;
+}
+
+aside[role="complementary"]{
+    background-color:#C3CA92;
+    padding:5px;
+}
+
+aside .container{
+    display:flex;
+    gap:40px;
+    flex-direction:row;
+}
+
+aside .widget a:last-of-type{
+    display:block;
+    text-align:right;
+    padding-top:20px;
+    color:#20331B;
+}
+
+aside .widget footer{
+    display:none;
+}
+
+#colophon h6 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
 
 /*  --------------- Media Queries -----------------  */
 @media screen and (max-width:600px){
