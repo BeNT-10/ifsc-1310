@@ -33,6 +33,72 @@ img{
     max-width:100%;
 }
 
+/*  --------------- Tables -----------------  */
+table{
+    width:100%;
+    border-collapse:collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin:20px 0;
+}
+
+table caption{
+    font-weight:bold;
+    margin:20px;
+}
+
+table th{
+    background-color:#c3ca92;
+    padding:10px;
+    border:1px solid #20331B;
+}
+
+table tr:nth-child(even){
+    background-color:rgba(195, 202, 146,.25);
+}
+
+table tr:hover{
+    background-color:rgba(195, 202, 146, 1);
+}
+
+table td{
+    border:1px solid #20331B;
+    padding:5px;
+    text-align:right;
+    width:33%;
+}
+
+td:first-of-type{
+    text-align:left;
+}
+
+/*  --------------- Lists -----------------  */
+ol{
+    list-style-type:lower-roman;
+}
+
+li{
+
+}
+
+ul ul{
+    list-style-type:square;
+    color:#C3CA92;
+}
+
+dl{}
+
+dt{
+    font-weight:bold;
+}
+
+dd{
+    margin:0;
+}
+
+dd + dt{
+    margin-top:20px;
+}
+
 /*  --------------- Global Styles -----------------  */
 body{
     background-color:#697E50;
@@ -119,6 +185,8 @@ header.primary nav ul li a:active{
     justify-content:space-between;
     flex-direction:row;
     gap:20px;
+    border-bottom:1px solid #C3CA92;
+    padding-bottom:50px;
 }
 
 #content article.post{
@@ -158,6 +226,38 @@ article.post a{
 article.post a:hover{
     text-decoration:none;
 }
+
+#practice h2{
+    color:#C3CA92;
+    border-bottom: 1px solid #C3CA92;
+}
+
+.img-right{
+    float:right;
+    border:1px solid #C3CA92;
+    padding:2px;
+    margin:10px 0 10px 20px;
+}
+
+.img-left{
+    float:left;
+    border:1px solid #20331B;
+    padding:2px;
+    margin:10px 20px 10px 0;
+    background:#20331B;
+    border-radius:5px;
+}
+
+.img-center{
+    display:block;
+    border:1px solid #20331B;
+    padding:2px;
+    margin:20px auto;
+    background:#20331B;
+    border-radius:5px;
+}
+
+
 
 aside[role="complementary"]{
     background-color:#C3CA92;
