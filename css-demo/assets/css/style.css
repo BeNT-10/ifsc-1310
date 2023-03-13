@@ -101,7 +101,7 @@ body{
     font-size:90%;
     background-color: #697e50;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%234e653d' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-    
+    /* ../ to go up a level in directory*/
 }
 
 header.primary{
@@ -267,6 +267,22 @@ article.post a:hover{
     border-radius:5px;
 }
 
+#practice blockquote{
+    border:5px solid #859864;
+    margin: 40px 80px;
+    padding:40px;
+    border-radius:1.5rem;
+    background-color: #859864;
+    line-height: 1.5;
+}
+
+#practice blockquote cite{
+    font-size: x-small;
+    font-weight: bold;
+    text-align:right;
+    display:block;
+    margin-top:5px;
+}
 
 aside[role="complementary"]{
     font-weight:800;
