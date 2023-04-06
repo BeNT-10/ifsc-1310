@@ -8,3 +8,58 @@ Font Selectors:
 font-family: 'Comfortaa', cursive;
 font-family: 'Overpass', sans-serif;
 */
+
+/*  --------------- Header -----------------  */
+header.primary{
+    font-family:'Comfortaa', cursive;
+    background-color:#dddddc;
+    text-align:center;
+    text-shadow:1px 1px 2px #dddddc;
+    padding:60px 60px 60px 60px;
+}
+
+.hamburger-menu {
+    position:fixed;
+    top:0px;
+    right:0px;
+    padding-top:5rem;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    margin-top:10px;
+    font-weight:500;
+}
+
+/*  --------------- Body -----------------  */
+body{
+    font-family:'Overpass', sans-serif;
+    font-size:large;
+    background-color:#dddddc;
+}
+
+
+
+
+
+
+
+
+/*  --------------- Media Queries -----------------  */
+@media screen and (max-width:600px){
+
+    header.primary nav ul{
+        flex-direction:column;
+        margin:auto;
+    }
+
+    header.primary nav a{
+        display:block;
+    }
+    header.primary nav li{
+        margin-bottom: 10px;
+    }
+}

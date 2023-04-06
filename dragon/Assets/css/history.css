@@ -8,3 +8,24 @@ Font Selectors:
 font-family: 'Comfortaa', cursive;
 font-family: 'Overpass', sans-serif;
 */
+
+
+
+
+
+
+/*  --------------- Media Queries -----------------  */
+@media screen and (max-width:600px){
+
+    header.primary nav ul{
+        flex-direction:column;
+        margin:auto;
+    }
+
+    header.primary nav a{
+        display:block;
+    }
+    header.primary nav li{
+        margin-bottom: 10px;
+    }
+}
