@@ -23,6 +23,19 @@ header.primary{
     top:0px;
     right:0px;
     padding-top:5rem;
+    display:none;
+}
+
+.menu-icon{
+    background-color:#dddddc;
+    position:fixed;
+    top:0px;
+    right:0px;
+    padding-top:5rem;
+}
+
+.menu-icon:hover + .hamburger-menu{
+    display:block;
 }
 
 .menu{
@@ -33,7 +46,6 @@ header.primary{
     margin-top:10px;
     font-weight:500;
 }
-
 /*  --------------- Body -----------------  */
 body{
     font-family:'Overpass', sans-serif;
