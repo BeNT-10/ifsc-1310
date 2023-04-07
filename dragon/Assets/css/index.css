@@ -14,7 +14,6 @@ header.primary{
     font-family:'Comfortaa', cursive;
     background-color:#dddddc;
     text-align:center;
-    text-shadow:1px 1px 2px #dddddc;
     padding:60px 60px 60px 60px;
 }
 
@@ -70,9 +69,9 @@ footer.primary{
     font-family:'Comfortaa', cursive;
     background-color:#dddddc;
     text-align:center;
-    text-shadow:1px 1px 2px #dddddc;
     padding:60px 60px 60px 60px;
 }
+
 
 /*  --------------- Body -----------------  */
 body{
@@ -80,6 +79,91 @@ body{
     font-size:large;
     background-color:#dddddc;
 }
+
+h3{
+    color:#8a7e64;
+}
+
+#overview h3{
+    text-align:center;
+}
+
+#configurations-title h3{
+    text-align:center;
+}
+
+#configurations{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    justify-content:center;
+    gap:20px;
+    padding-bottom:50px;
+    width:80vw;
+    max-width:960px;
+    margin:40px auto;
+    border-bottom:1px solid black;
+}
+
+#configurations article.configuration{
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.4);
+    padding:10px;
+    border-radius:4px;
+    font-size:0.8rem;
+    transition:0.5s;
+} 
+
+#configurations article.configuration:hover,
+#configurations article.configuration:active{
+    transition:0.5s;
+    box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
+    font-size:medium;
+    color:#fefebf;
+    background-color:#44585a;
+
+}
+
+#figtitle{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+figcaption{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
