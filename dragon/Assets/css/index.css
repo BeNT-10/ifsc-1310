@@ -18,34 +18,55 @@ header.primary{
     padding:60px 60px 60px 60px;
 }
 
-.hamburger-menu {
-    position:fixed;
-    top:0px;
-    right:0px;
-    padding-top:5rem;
-    display:none;
-}
-
-.menu-icon{
-    background-color:#dddddc;
-    position:fixed;
-    top:0px;
-    right:0px;
-    padding-top:5rem;
-}
-
-.menu-icon:hover + .hamburger-menu{
-    display:block;
-}
-
 .menu{
-    list-style:none;
+    position:fixed;
+    top:0px;
+    right:0px;
+    list-style-type:none;
+    opacity:0;
+    transition:all 2s ease;
+
+}
+  
+.menu > li{
+    padding-top:15px;
+}
+  
+.menu-icon{
+    position:fixed;
+    top:40px;
+    right:0px;
+    width:5rem;
+    height:5rem;
+    opacity:0.3;
+    transition:all 2s ease;
+    transform:rotate(270deg);
+    z-index:999;
+}
+  
+.menu-icon:hover,
+.menu:hover{
+    opacity:1.0;
+    transition:all 2s ease;
+}
+  
+.menu-icon:hover{
+    transform:rotate(270deg) translateY(-120px);
+}
+  
+.menu:hover .menu-icon{
+    transform:translateX(-35px);
+    opacity:1;
+    transition:2s;
 }
 
-.menu li{
-    margin-top:10px;
-    font-weight:500;
+.menu-icon:hover ~ .hamburger-menu .menu{
+    transform:translateX(-35px);
+    opacity:1;
+    transition:2s;
 }
+
+
 /*  --------------- Body -----------------  */
 body{
     font-family:'Overpass', sans-serif;
