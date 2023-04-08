@@ -1,9 +1,8 @@
 /* Color Scheme
 - Off White: #dddddc | rgba(221,221,220,255)
-- Off Yellow: #fefebf | rgba(254,254,168,255)
+- Off Yellow: #FFD700
 - Blue: 44585a | rgba(68,88,90,255)
-- Off Brown: #8a7e64 | rgba(138,126,100,255)
-
+- Off Brown: #ccb279
 Font Selectors:
 font-family: 'Comfortaa', cursive;
 font-family: 'Overpass', sans-serif;
@@ -12,9 +11,8 @@ font-family: 'Overpass', sans-serif;
 /*  --------------- Header -----------------  */
 header.primary{
     font-family:'Comfortaa', cursive;
-    background-color:#dddddc;
+    background-color:#44585a;
     text-align:center;
-    text-shadow:1px 1px 2px #dddddc;
     padding:60px 60px 60px 60px;
 }
 
@@ -47,7 +45,7 @@ header.primary{
 .menu-icon:hover,
 .menu:hover{
     opacity:1.0;
-    transition:all 1s ease;
+    transition:all 2s ease;
 }
   
 .menu-icon:hover{
@@ -66,23 +64,34 @@ header.primary{
     transition:1s;
 }
 
-footer.primary{
-    font-family:'Comfortaa', cursive;
-    background-color:#dddddc;
-    text-align:center;
-    text-shadow:1px 1px 2px #dddddc;
-    padding:60px 60px 60px 60px;
-}
 
 /*  --------------- Body -----------------  */
 body{
     font-family:'Overpass', sans-serif;
     font-size:large;
-    background-color:#dddddc;
+    background-color:#44585a;
+}
+
+a{
+    color:#FFD700;
+}
+
+h3{
+    color:#ccb279;
 }
 
 
+/*  --------------- Footer -----------------  */
+footer.primary{
+    font-family:'Comfortaa', cursive;
+    background-color:#44585a;
+    text-align:center;
+    padding:60px 60px 60px 60px;
+}
 
+footer h6{
+    color:#ccb279;
+}
 
 
 

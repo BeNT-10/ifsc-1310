@@ -1,9 +1,8 @@
 /* Color Scheme
 - Off White: #dddddc | rgba(221,221,220,255)
-- Off Yellow: #fefebf | rgba(254,254,168,255)
+- Off Yellow: #FFD700
 - Blue: 44585a | rgba(68,88,90,255)
-- Off Brown: #8a7e64 | rgba(138,126,100,255)
-
+- Off Brown: #ccb279
 Font Selectors:
 font-family: 'Comfortaa', cursive;
 font-family: 'Overpass', sans-serif;
@@ -12,7 +11,7 @@ font-family: 'Overpass', sans-serif;
 /*  --------------- Header -----------------  */
 header.primary{
     font-family:'Comfortaa', cursive;
-    background-color:#dddddc;
+    background-color:#44585a;
     text-align:center;
     padding:60px 60px 60px 60px;
 }
@@ -65,23 +64,20 @@ header.primary{
     transition:1s;
 }
 
-footer.primary{
-    font-family:'Comfortaa', cursive;
-    background-color:#dddddc;
-    text-align:center;
-    padding:60px 60px 60px 60px;
-}
-
 
 /*  --------------- Body -----------------  */
 body{
     font-family:'Overpass', sans-serif;
     font-size:large;
-    background-color:#dddddc;
+    background-color:#44585a;
+}
+
+a{
+    color:#FFD700;
 }
 
 h3{
-    color:#8a7e64;
+    color:#ccb279;
 }
 
 #overview h3{
@@ -118,9 +114,12 @@ h3{
     transition:0.5s;
     box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
     font-size:medium;
-    color:#fefebf;
+    color:#ccb279;
     background-color:#44585a;
+}
 
+#figtitle{
+    color:#ccb279;
 }
 
 #figtitle{
@@ -133,7 +132,17 @@ figcaption{
 }
 
 
+/*  --------------- Footer -----------------  */
+footer.primary{
+    font-family:'Comfortaa', cursive;
+    background-color:#44585a;
+    text-align:center;
+    padding:60px 60px 60px 60px;
+}
 
+footer h6{
+    color:#ccb279;
+}
 
 
 
