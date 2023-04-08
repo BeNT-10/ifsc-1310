@@ -114,8 +114,12 @@ h3{
     transition:0.5s;
     box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
     font-size:medium;
-    color:#ccb279;
+    color:black;
     background-color:#44585a;
+}
+
+#configurations article.configuration:hover h4{
+    color:#ccb279;
 }
 
 #figtitle{
