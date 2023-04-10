@@ -94,6 +94,10 @@ table{
     width:100%;
 }
   
+table thead tr th{
+    color:#ccb279;
+}
+
 th, td{
     padding:12px;
     text-align:left;
