@@ -55,13 +55,13 @@ header.primary{
 .menu:hover .menu-icon{
     transform:translateX(-35px);
     opacity:1;
-    transition:2s;
+    transition:1s;
 }
 
 .menu-icon:hover ~ .hamburger-menu .menu{
     transform:translateX(-35px);
     opacity:1;
-    transition:1s;
+    transition:1.5s;
 }
 
 
