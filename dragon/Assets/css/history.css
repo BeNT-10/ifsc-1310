@@ -80,6 +80,38 @@ h3{
     color:#ccb279;
 }
 
+#history h3{
+    text-align:center;
+}
+
+#missions{
+    background-color:#44585a;
+    padding:20px;
+}
+  
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+  
+th, td{
+    padding:12px;
+    text-align:left;
+}
+  
+th{
+    background-color:#44585a;
+    color:#ddd;
+}
+  
+tr:nth-child(even){
+    background-color:#dddddc;
+}
+  
+tr:hover{
+    background-color: #f2f2f2;
+}  
+
 
 /*  --------------- Footer -----------------  */
 footer.primary{
