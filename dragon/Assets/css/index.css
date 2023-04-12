@@ -85,6 +85,11 @@ h3{
     text-align:center;
 }
 
+#overview p{
+    width:65vw;
+    margin:40px auto;
+}
+
 #configurations-title h3{
     text-align:center;
 }
