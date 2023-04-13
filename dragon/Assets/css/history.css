@@ -73,6 +73,11 @@ body{
     background-color:#44585a;
 }
 
+p{
+    width:65vw;
+    margin:40px auto;
+}
+
 a{
     color:#FFD700;
 }
@@ -92,7 +97,8 @@ h3{
   
 table{
     border-collapse:collapse;
-    width:100%;
+    width:65vw;
+    margin:40px auto;
 }
   
 table thead tr th{
