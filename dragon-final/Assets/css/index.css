@@ -73,6 +73,10 @@ body{
     background-color:#44585a;
 }
 
+p{
+    color:white;
+}
+
 a{
     color:#FFD700;
 }
@@ -121,18 +125,15 @@ h3{
     box-shadow:0 8px 16px rgba(0, 0, 0, 0.4);
     font-size:medium;
     color:black;
-    background-color:#918f8f;
+    background-color:#353131;
 }
 
 #configurations article.configuration:hover h4{
     color:#ccb279;
 }
 
-#figtitle{
+.figtitle{
     color:#ccb279;
-}
-
-#figtitle{
     text-align:center;
     text-transform:uppercase;
 }
