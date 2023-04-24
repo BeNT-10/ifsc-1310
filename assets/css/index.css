@@ -32,6 +32,16 @@ h2{
     text-align:center;
 }
 
+h4{
+    text-align:center;
+}
+
+.content{
+    width:65vw;
+    margin:40px auto;
+    text-indent:5%;
+}
+
 h6{
     text-align:center;
 }
