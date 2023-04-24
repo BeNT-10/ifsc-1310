@@ -73,12 +73,6 @@ body{
     background-color:#44585a;
 }
 
-p{
-    width:65vw;
-    margin:40px auto;
-    color:white;
-}
-
 a{
     color:#FFD700;
 }
@@ -86,12 +80,25 @@ a{
 h3{
     color:#ccb279; 
 }
-
-h4{
+  
+.question{
+    width:65vw;
+    margin:40px auto;
     text-align:center;
     color:#ccb279;
+    font-weight:bold;
+    cursor:pointer;
+    border: 1px solid #dddddc;
 }
-
+  
+.answer{
+    display:none;
+    width:65vw;
+    margin:40px auto;
+    color:white;
+    text-indent:3%;
+}
+  
 
 /*  --------------- Footer -----------------  */
 footer.primary{
