@@ -88,17 +88,38 @@ h3{
     color:#ccb279;
     font-weight:bold;
     cursor:pointer;
-    border: 1px solid #dddddc;
 }
   
+.question::before{
+    content:"\1F896"; 
+    display:inline-block;
+    margin-right:10px; 
+    font-size:1.5em; 
+}
+
+.question.rotate::before{
+    transform:rotate(90deg);
+    transition:transform 0.3s ease-in-out;
+}
+
 .answer{
     display:none;
     width:65vw;
     margin:40px auto;
     color:white;
     text-indent:3%;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.3s ease-in-out;
 }
-  
+
+.faq-button{
+    border:1px solid #ccb279;
+    border-radius:65px;
+    width:70vw;
+    margin:15px auto;
+    text-align:center;
+}
 
 /*  --------------- Footer -----------------  */
 footer.primary{
