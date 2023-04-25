@@ -116,6 +116,7 @@ table{
     border-collapse:collapse;
     width:65vw;
     margin:40px auto;
+    border:3px solid #ccb279;
 }
   
 table thead tr th{
