@@ -42,28 +42,44 @@ header.primary{
     z-index:999;
 }
   
-.menu-icon:hover,
-.menu:hover{
+.menu-icon:hover{
+    cursor:pointer;
+}
+
+.menu-icon:active,
+.menu:active{
     opacity:1.0;
     transition:all 2s ease;
 }
   
-.menu-icon:hover{
+.menu-icon:active{
     transform:rotate(270deg) translateY(-120px);
 }
   
-.menu:hover .menu-icon{
+.menu:active .menu-icon{
     transform:translateX(-35px);
     opacity:1;
     transition:1s;
 }
 
-.menu-icon:hover ~ .hamburger-menu .menu{
+.menu-icon:active ~ .hamburger-menu .menu{
     transform:translateX(-35px);
     opacity:1;
     transition:1.5s;
 }
 
+.menu.active{
+    opacity:1.0;
+    transform:translateX(-35px);
+    transition:1.5s;
+}
+  
+.menu-icon.active{
+    opacity:1.0;
+    transform:rotate(270deg) translateY(-120px);
+    transition:1s;
+}
+  
 
 /*  --------------- Body -----------------  */
 body{
